@@ -1,6 +1,8 @@
-# MovieMint
+# MovieMint  
 
-A modern and responsive Movie/TV show streaming platform built with **TypeScript** and **TailwindCSS**. It features a beautiful UI with dynamic content sliders, theme switching, RTL support, and mobile responsiveness.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-red?style=for-the-badge&logo=github)](https://NallamalaAkshay.github.io/MovieMint-Project/)  
+
+A modern and responsive Movie/TV show streaming platform built with **TypeScript** and **TailwindCSS**. It features a beautiful UI with dynamic content sliders, theme switching, RTL support, and mobile responsiveness.  
 
 ## Features
 
@@ -48,7 +50,7 @@ src/
 
 ```bash
 git clone https://github.com/NallamalaAkshay/MovieMint-Project.git
-cd moviemint
+cd MovieMint-Project
 ```
 
 2. Install dependencies:

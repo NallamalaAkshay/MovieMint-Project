@@ -5,9 +5,9 @@ const faviconVersion = Date.now();
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  root: "src",              // tell Vite source code is inside src/
-  publicDir: "../public",   // static assets outside src
-  base: "./",               // IMPORTANT: relative paths so build works everywhere
+  root: "src",              // Source code is inside src/
+  publicDir: "../public",   // Static assets outside src
+  base: "/MovieMint-Project/",   // 👈 Required for GitHub Pages deployment
   server: {
     port: 3000,
     open: "/",
@@ -29,8 +29,8 @@ export default defineConfig({
     },
     outDir: "../dist",
     emptyOutDir: true,
+  },
   define: {
     __FAVICON_VERSION__: JSON.stringify(faviconVersion),
-  },
   },
 });
